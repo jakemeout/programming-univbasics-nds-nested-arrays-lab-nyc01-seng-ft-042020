@@ -35,10 +35,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-   ps_room = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
-    ps_room
-  
-
+    matrix[row][column]
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
