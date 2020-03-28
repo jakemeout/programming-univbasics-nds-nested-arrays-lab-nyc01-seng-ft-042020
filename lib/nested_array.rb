@@ -28,6 +28,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
+  sorted_ps_room = ps_room.sort 
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
