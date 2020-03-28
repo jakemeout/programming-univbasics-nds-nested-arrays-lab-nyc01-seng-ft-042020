@@ -27,9 +27,10 @@ end
 
 def sorted_matrix
   ps_room
-  i = 1
+  i = 0
+  
   while i < ORGANIC_PRODUCE.length do
-    
+   if ORGANIC_PRODUCE[i][0] >   
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
